@@ -1,4 +1,4 @@
-FROM appache2
+FROM httpd
 WORKDIR /var/www/html/
 RUN rm index.html
 RUN touch index.html
